@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <br>
         <br>
         <a href="order.html">Order HC Spices</a>
-        <div class="image-box" > <a href="Cupcake.html"><img src="imgs/cupcake.jpg" alt="cupcake"></div></a>
+        <div class="image-box" > <a href="cupcake.html"><img src="imgs/Cupcake.jpg" alt="Cupcake"></div></a>
         <div class="image-box"><a href="quinoa.html"> <img src="imgs/quinoa salad V.jpeg" alt=" quinoa"></div></a>
-        <div class="image-box"><a href="stuffedpeps.html"><img src="imgs/Stuffed Peppers.jpeg" alt="Stuffed Peppers"></img></div></a>
+        <div class="image-box"><a href="stuffedpeps.html"><img src="imgs/STuffedPeppers.jpg" alt="stuffed pepper" ></img></div></a>
     `;
     
 
