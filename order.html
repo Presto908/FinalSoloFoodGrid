@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Form</title>
+</head>
+<body>
+    <header id="header"></header>
+    <div class="container">
+        <main>
+            <form action="https://formspree.io/f/manwqzed" method="post">
+                <div class="form-container">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" required><br><br>
+                    
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" required><br><br>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="name@emailaddress" required><br><br>
+                    
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123 123 1234" required><br><br>
+                </div>
+                
+                <h4>What item are you ordering?</h4>
+                <input type="radio" name="item" id="oregano" value="oregano">
+                <label for="oregano">Oregano</label>
+                <input type="radio" name="item" id="tumeric" value="tumeric">
+                <label for="tumeric">Tumeric</label>
+                <input type="radio" name="item" id="mint" value="mint">
+                <label for="mint">Mint</label><br><br>
+                
+                <h4>Choose size</h4>
+                <select name="size" id="size">
+                    <option value="small">Small (15oz)</option>
+                    <option value="medium">Medium (20oz)</option>
+                    <option value="large">Large (25oz)</option>
+                </select><br><br>
+                
+                <button type="submit">Submit your order</button>
+            </form>
+        </main>
+        <aside id="sidebar"></aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
