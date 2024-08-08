@@ -179,9 +179,6 @@ img{ text-align: center;}
     }
 }
 
-
-
-
 @media (max-width: 480px) {
     .container {
         display: flex;
