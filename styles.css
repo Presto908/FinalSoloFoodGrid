@@ -153,8 +153,8 @@ img{ text-align: center;}
 }
 
 .image-gallery img {
-    width: 30%;
-    border-radius: 8px;
+    width: 35%;
+    border-radius: 9px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .h2 {font-family: cursive ; }
